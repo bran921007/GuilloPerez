@@ -7,6 +7,7 @@ import { OpeningHours } from "./sections/OpeningHours";
 import { ContactInfo } from "./sections/ContactInfo";
 import { VisitMap } from "./sections/VisitMap";
 import { DirectionsInfo } from "./sections/DirectionsInfo";
+import Link from "next/link";
 
 export function VisitPage() {
   return (
@@ -49,11 +50,13 @@ export function VisitPage() {
             <p className="text-muted-foreground mb-6">
               Estamos aquí para ayudarte a planificar tu visita y responder cualquier pregunta que tengas.
             </p>
-            <Button 
-              size="lg"
-              onClick={() => window.location.href = `mailto:linaresamalia@gmail.com`}
-            >
-              Contáctanos
+            <Button size="lg">
+              <Link 
+                href="https://wa.me/18493610323?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20la%20visita%20a%20la%20galería."
+                target="_blank"
+              >
+                Contáctanos
+              </Link>
             </Button>
           </div>
         </CardContent>

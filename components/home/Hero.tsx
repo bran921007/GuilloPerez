@@ -19,10 +19,10 @@ export function Hero() {
       <div className="relative h-full flex items-center justify-center text-center">
         <div className="max-w-3xl px-4">
           <h2 className="text-4xl md:text-6xl font-serif text-white mb-6">
-            Donde el Arte se Encuentra con la Elegancia
+            La Excelencia del Arte Dominicano
           </h2>
           <p className="text-xl text-gray-200 mb-8">
-            Experimente obras maestras contemporáneas en nuestro espacio curado
+            Descubra la esencia del arte dominicano y el legado de Guillo Pérez en nuestro espacio cultural
           </p>
           <Link 
             href="/collection" 
