@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "D'Guillermo Galería",
     description: 'Galería de arte y servicios de enmarcado profesional',
-    images: './logo2.png',
+    images: './galeria/galeria6.jpg',
   },
   icons: {
     icon: './logo2.png',

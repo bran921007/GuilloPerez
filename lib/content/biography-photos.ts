@@ -1,7 +1,7 @@
 export const biographyPhotos = [
   {
     url: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/guillo-imagen3.jpeg",
-    title: "Guillo Pérez con Café",
+    title: "Guillo Pérez",
     description: "Retrato del maestro Guillo Pérez"
   },
   {
