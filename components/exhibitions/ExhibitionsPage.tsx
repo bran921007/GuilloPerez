@@ -20,17 +20,19 @@ export function ExhibitionsPage() {
 
       <CurrentExhibition />
 
-      <Tabs defaultValue="upcoming" className="mt-16">
-        <TabsList className="grid w-full grid-cols-2 lg:w-[400px] mb-8">
+      <Tabs defaultValue="past" className="mt-16">
+        {/* <TabsList className="grid w-full grid-cols-2 lg:w-[400px] mb-8">
           <TabsTrigger value="upcoming">Próximas</TabsTrigger>
           <TabsTrigger value="past">Pasadas</TabsTrigger>
-        </TabsList>
+        </TabsList> */}
         
-        <TabsContent value="upcoming">
+        {/* <TabsContent value="upcoming">
+          <h1 className="text-center text-2xl font-serif mb-12">Próximas Exposiciones</h1>
           <UpcomingExhibitions />
-        </TabsContent>
+        </TabsContent> */}
         
         <TabsContent value="past">
+          <h1 className="text-center text-2xl font-serif mb-12">Exposiciones Pasadas</h1>
           <PastExhibitions />
         </TabsContent>
       </Tabs>

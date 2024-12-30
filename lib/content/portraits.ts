@@ -15,19 +15,19 @@ export const portraits = {
   ],
   personalPhotos: [
     {
-      title: "Guillermo Pérez con Café",
+      title: "Guillo Pérez con Café",
       url: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/Guillo-perez-con-cafe.jpg"
     },
     {
-      title: "Retrato de Guillermo Pérez",
+      title: "Retrato de Guillo Pérez",
       url: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/Guillo-Perez-foto.jpg" 
     },
     {
-      title: "Manos de Guillermo Pérez",
+      title: "Manos de Guillo Pérez",
       url: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/Manos-Guillo-Perez.jpg"
     },
     {
-      title: "Guillermo Pérez y Juan Bosch",
+      title: "Guillo Pérez y Juan Bosch",
       url: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/guillo-y-juan-bosch.jpeg"
     }
   ]

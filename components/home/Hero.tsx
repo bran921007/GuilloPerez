@@ -9,7 +9,7 @@ export function Hero() {
     <section className="relative h-screen">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1577720580479-7d839d829c73?auto=format&fit=crop&q=80"
+          src="../galeria/galeria1.jpg"
           alt="Interior de la Galería"
           className="w-full h-full object-cover"
         />
@@ -25,7 +25,7 @@ export function Hero() {
             Experimente obras maestras contemporáneas en nuestro espacio curado
           </p>
           <Link 
-            href="#collections" 
+            href="/collection" 
             className="inline-block bg-white text-black px-8 py-3 rounded-none hover:bg-gray-100 transition-colors duration-200"
           >
             Ver Colecciones

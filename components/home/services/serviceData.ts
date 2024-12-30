@@ -13,13 +13,12 @@ export const services = [
       "Certificados de autenticidad",
       "Asesoría para coleccionistas"
     ],
-    link: "/collection"
   },
   {
     icon: Frame,
     title: "Enmarcado",
     titleEn: "Custom Framing",
-    image: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/enmarcado1.jpg",
+    image: "./enmarcado/enmarcado4.jpg",
     description: "Servicio especializado de enmarcado que preserva y realza la belleza de cada obra utilizando técnicas artesanales y materiales de conservación.",
     features: [
       "Marcos personalizados",
@@ -27,7 +26,6 @@ export const services = [
       "Técnicas de conservación",
       "Asesoramiento profesional"
     ],
-    link: "/services/framing"
   },
   {
     icon: ShoppingBag,
@@ -41,6 +39,6 @@ export const services = [
       "Marcas premium",
       "Kits para artistas"
     ],
-    link: "/store"
+    
   }
 ];

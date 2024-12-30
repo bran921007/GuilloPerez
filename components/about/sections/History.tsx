@@ -11,7 +11,7 @@ export function History() {
           <h2 className="text-3xl font-serif mb-6">Nuestra Historia</h2>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              Fundada en 1985 por el reconocido artista Guillermo Pérez, nuestra galería 
+              Fundada en 1985 por el reconocido artista Guillo Pérez, nuestra galería 
               comenzó como un pequeño espacio dedicado a artistas locales emergentes.
             </p>
             <p>
@@ -30,7 +30,7 @@ export function History() {
           <CardContent className="p-6">
             <div className="aspect-square relative bg-secondary/50 rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?auto=format&fit=crop&q=80"
+                src="../galeria/galeria1.jpeg"
                 alt="Galería D'Guillermo en sus inicios"
                 className="object-cover w-full h-full"
               />

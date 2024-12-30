@@ -24,7 +24,7 @@ export function AboutUs() {
       <History />
       <Mission />
       <Team />
-      <Achievements />
+      {/* <Achievements /> */}
       <Testimonials />
       <Contact />
     </div>

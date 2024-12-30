@@ -5,20 +5,20 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "D'Guillermo Galeria ha transformado la manera en que experimentamos el arte contemporáneo.",
-    author: "Ana Martínez",
-    role: "Crítica de Arte, El Universal"
+    quote: "El magistral colorista dominicano ha interpretado como nadie tal vez, el entorno criollo, hombre y paisaje, cielo, mar y tierra",
+    author: "Marianne de Tolentino",
+    role: "Crítica de Arte"
   },
   {
-    quote: "Un espacio que verdaderamente entiende y apoya a los artistas emergentes.",
-    author: "Miguel Torres",
-    role: "Artista Contemporáneo"
+    quote: "Very nice staff ... professional framework, work at affordable prices ... great",
+    author: "Vincenzo Mancini",
+    role: "Visitante"
   },
   {
-    quote: "La curaduría excepcional y el compromiso con la calidad son evidentes en cada exposición.",
-    author: "Laura Chen",
-    role: "Coleccionista de Arte"
-  }
+    quote: "Excelente lugar para comprar arte",
+    author: "Estalin Sanchez",
+    role: "Visitante"
+  },
 ];
 
 export function Testimonials() {

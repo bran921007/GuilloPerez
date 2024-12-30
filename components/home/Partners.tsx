@@ -8,9 +8,16 @@ const partners = [
   {
     id: 2,
     name: "Banreservas",
-    logo: "https://www.guilloperez.com/images/sponsors/banreservas.png",
+    logo: "../sponsor/banreservas.jpg",
     description: "Institución Financiera"
-  }
+  },
+  // Alcaldia de Moca
+  {
+    id: 3,
+    name: "Ayuntamiento de Cabrera",
+    logo: "../sponsor/logo-cabrera.png",
+    description: "Gobierno Local"
+  },
 ];
 
 export function Partners() {

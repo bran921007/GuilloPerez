@@ -35,7 +35,7 @@ export function FeaturedArtworks() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-serif mb-4">Obras Destacadas</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Explore nuestra selección de obras maestras del reconocido artista Guillermo Pérez
+            Explore nuestra selección de obras maestras del reconocido artista Guillo Pérez
           </p>
         </div>
 
