@@ -15,7 +15,7 @@ export function DetailedBio() {
               <p>
                 Guillermo Esteban Pérez Chacón, conocido artísticamente como Guillo Pérez, 
                 nació el 3 de agosto de 1923 en San Víctor, Moca, República Dominicana. 
-                Hijo de Francisco Guillermo Pérez Tavárez y Ana Luisa Chicón de Pérez, fue 
+                Hijo de Francisco Guillo Pérez Tavárez y Ana Luisa Chicón de Pérez, fue 
                 el único varón entre ocho hermanos en una familia de origen modesto.
               </p>
 

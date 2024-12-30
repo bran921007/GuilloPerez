@@ -4,23 +4,17 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const team = [
   {
-    name: "Guillermo Pérez",
-    role: "Fundador y Director",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80",
-    bio: "Con más de 35 años de experiencia en el mundo del arte, Guillermo ha dedicado su vida a cultivar el talento artístico."
+    name: "Guillo Pérez",
+    role: "Fundador y Artista",
+    image: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/Guillo-Perez-foto.jpg",
+    bio: "Artista dominicano cuyo centenario celebramos, dejó un legado perdurable en la cultura artística dominicana. Su obra captura la esencia vibrante y el espíritu caribeño."
   },
   {
-    name: "María González",
-    role: "Curadora Principal",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
-    bio: "Especialista en arte contemporáneo con un doctorado en Historia del Arte de la Universidad de Nueva York."
+    name: "Amalia Linares",
+    role: "Directora y Gestora Cultural",
+    image: "./foto-amalia.jpg", // Use a placeholder or representative image
+    bio: "Continúa el legado artístico de D'Guillermo Galería, manteniendo viva la tradición y visión del arte dominicano."
   },
-  {
-    name: "Carlos Ruiz",
-    role: "Director de Exposiciones",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80",
-    bio: "Con experiencia internacional en la organización de exposiciones en las principales galerías del mundo."
-  }
 ];
 
 export function Team() {

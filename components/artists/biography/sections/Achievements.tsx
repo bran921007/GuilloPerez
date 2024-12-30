@@ -5,24 +5,25 @@ import { Award } from "lucide-react";
 
 const achievements = [
   {
-    year: "2020",
-    title: "Premio Nacional de las Artes",
-    institution: "Secretaría de Cultura, México"
+    year: "2023",
+    title: "Exposición 'Guillo Pérez Centenario. Obras de la colección Portela Bisonó'",
+    institution: "Centro Cultural Banreservas"
   },
   {
-    year: "2015",
-    title: "Medalla de Oro en Artes Visuales",
-    institution: "Bienal de Venecia"
+    year: "2013",
+    title: "Premio Nacional de Artes Plásticas",
+    institution: "Ministerio de Cultura de la República Dominicana"
   },
+  {
+    year: "2012",
+    title: "Premio Fundación Corripio en la categoría Arte",
+    institution: "Categoría Arte"
+  },
+  // Medalla al Mérito para las Artes y las Letras otorgada por la Cámara de Diputados
   {
     year: "2010",
-    title: "Doctor Honoris Causa",
-    institution: "Universidad Nacional Autónoma de México"
-  },
-  {
-    year: "2005",
-    title: "Premio Internacional de Arte Contemporáneo",
-    institution: "Fundación Joan Miró"
+    title: "Medalla al Mérito para las Artes y las Letras",
+    institution: "Cámara de Diputados"
   }
 ];
 

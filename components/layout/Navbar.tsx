@@ -13,7 +13,7 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-2xl font-serif">
-            D&apos;Guillermo
+            D&apos;Guillermo Galeria
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -26,9 +26,9 @@ export function Navbar() {
             <Link href="/collection" className="hover:text-primary">
               Colección
             </Link>
-            <Link href="/blog" className="hover:text-primary">
+            {/* <Link href="/blog" className="hover:text-primary">
               Blog
-            </Link>
+            </Link> */}
             <Link href="/about" className="hover:text-primary">
               Nosotros
             </Link>

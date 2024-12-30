@@ -14,7 +14,7 @@ interface ServiceCardProps {
   image: string;
   description: string;
   features: string[];
-  link: string;
+  link?: string;
 }
 
 export function ServiceCard({ 
@@ -60,10 +60,12 @@ export function ServiceCard({
         </ul>
 
         <Button variant="link" className="p-0 h-auto" asChild>
-          <Link href={link} className="group-hover:text-primary transition-colors">
-            Más Información
-            <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
-          </Link>
+          {link ? (
+            <Link href={link} className="group-hover:text-primary transition-colors">
+              Más Información
+              <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
+            </Link>
+          ) : '' }
         </Button>
       </CardContent>
     </Card>

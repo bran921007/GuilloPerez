@@ -1,0 +1,7 @@
+# Disallow
+User-agent: *
+Disallow: /blog
+
+# Allow all crawlers
+User-agent: *
+Allow: /

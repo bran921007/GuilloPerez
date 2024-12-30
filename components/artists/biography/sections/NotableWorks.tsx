@@ -9,30 +9,27 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const notableWorks = [
   {
-    title: "Ecos del Pasado",
-    year: "1988",
-    description: "Una exploración de la memoria colectiva a través de símbolos precolombinos.",
-    image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?auto=format&fit=crop&q=80",
-    location: "Museo Nacional de Arte, México",
-    details: "Esta obra maestra fusiona símbolos ancestrales con técnicas contemporáneas, creando un diálogo único entre el pasado y el presente."
+    title: "Rancho de Tabaco",
+    category: "Obras",
+    description: "Obra artística",
+    image: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/obras/obra1.jpg",
+    details: "Pieza de la colección"
   },
   {
-    title: "Metamorfosis Urbana",
-    year: "1995",
-    description: "Serie que documenta la transformación de las ciudades modernas.",
-    image: "https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?auto=format&fit=crop&q=80",
-    location: "MoMA, Nueva York",
-    details: "Una serie revolucionaria que captura la evolución de los paisajes urbanos a través de una perspectiva única."
+    title: "Carretas y Bueyes",
+    category: "Obras", 
+    description: "Obra artística",
+    image: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/obras/obra3.jpg",
+    details: "Pieza de la colección"
   },
   {
-    title: "Raíces Futuras",
-    year: "2005",
-    description: "Instalación que combina elementos naturales con tecnología digital.",
-    image: "https://images.unsplash.com/photo-1577083552425-4c128943bf84?auto=format&fit=crop&q=80",
-    location: "Centro Pompidou, París",
-    details: "Esta instalación innovadora marca un hito en la carrera de Pérez, donde explora la intersección entre la naturaleza y la tecnología."
+    title: "Cañaveral",
+    category: "Obras",
+    description: "Obra artística",
+    image: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/obras/obra4.jpg",
+    details: "Pieza de la colección"
   }
-];
+ ];
 
 export function NotableWorks() {
   const [selectedWork, setSelectedWork] = useState<number | null>(null);
@@ -51,7 +48,7 @@ export function NotableWorks() {
 
   return (
     <section>
-      <h2 className="text-3xl font-serif mb-8">Obras Destacadas</h2>
+      <h2 className="text-3xl font-serif mb-8">Algunas de sus Obras Destacadas</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {notableWorks.map((work, index) => (
@@ -112,15 +109,15 @@ export function NotableWorks() {
                   <h2 className="text-2xl font-serif mb-2">
                     {notableWorks[selectedWork].title}
                   </h2>
-                  <p className="text-muted-foreground mb-4">
+                  {/* <p className="text-muted-foreground mb-4">
                     {notableWorks[selectedWork].year}
-                  </p>
+                  </p> */}
                   <p className="mb-4">
                     {notableWorks[selectedWork].details}
                   </p>
-                  <p className="text-sm text-primary">
+                  {/* <p className="text-sm text-primary">
                     {notableWorks[selectedWork].location}
-                  </p>
+                  </p> */}
                 </div>
               </div>
 

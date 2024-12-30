@@ -18,20 +18,20 @@ export function Biography() {
         <div className="space-y-4">
           <div className="aspect-[3/4] relative overflow-hidden rounded-lg mb-4">
             <img
-              src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80"
-              alt="Portada del libro: Guillermo Pérez - El Arte de la Transformación"
-              className="object-cover w-full h-full"
+              src="../libro-portada.png"
+              alt="Portada del libro: Guillo Pérez y su pasión por el color"
+              className="object-contain w-full h-full"
             />
           </div>
 
           <div>
             <h3 className="font-medium mb-2">
-              "Guillermo Pérez: El Arte de la Transformación"
+              "Guillo Pérez y su pasión por el color"
             </h3>
             <p className="text-sm text-muted-foreground mb-4">
-              Por Elena Martínez<br />
-              Editorial Arte Contemporáneo, 2023<br />
-              ISBN: 978-0123456789
+              Por Cándido Gerón<br />
+              Editora Corripio C. por A., 31 de marzo de 2006<br />
+              ISBN: 978-99934-55-96-7
             </p>
             <p className="text-sm text-muted-foreground mb-4">
               Una exploración profunda de la vida y obra del artista, incluyendo

@@ -36,15 +36,15 @@ export function Footer() {
           <div>
             <h4 className="font-medium mb-4">Síguenos</h4>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.instagram.com/dguillermogaleria/" rel="noreferrer noopener" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              {/* <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook size={20} />
               </Link>
               <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter size={20} />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

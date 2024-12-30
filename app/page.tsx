@@ -14,7 +14,7 @@ export default function Home() {
       <FeaturedArtworks />
       <ServicesSection />
       {/* <UpcomingExhibitions /> */}
-      <ImageCarousel />
+      {/* <ImageCarousel /> */}
       <Partners />
       <LocationMap />
       <Newsletter />

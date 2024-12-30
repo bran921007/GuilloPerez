@@ -8,23 +8,15 @@ import Link from "next/link";
 const featuredProducts = [
   {
     id: 1,
-    title: "Guillermo Pérez: El Arte de la Transformación",
-    author: "Elena Martínez",
-    price: "$49.99",
-    image: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80",
-    description: "Biografía autorizada del reconocido artista",
+    title: "Guillo Pérez y su pasión por el color",
+    author: "Cándido Gerón",
+    price: "RD$ 5,000",
+    image: "../libro-portada.png",
+    description: "Una exploración profunda de la vida y obra del maestro de la pintura dominicana, Guillo Pérez.",
     link: "/store/biography-book"
   },
-  {
-    id: 2,
-    title: "Catálogo: Retrospectiva 2024",
-    author: "D'Guillermo Galeria",
-    price: "$35.99",
-    image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80",
-    description: "Colección completa de obras maestras",
-    link: "#"
-  }
 ];
+
 
 export function StorePage() {
   return (
@@ -57,9 +49,9 @@ export function StorePage() {
                         Ver Detalles <Book className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
-                    <Button variant="outline" className="w-full">
+                    {/* <Button variant="outline" className="w-full">
                       Añadir al Carrito <ShoppingCart className="ml-2 h-4 w-4" />
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </div>

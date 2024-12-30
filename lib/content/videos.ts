@@ -1,6 +1,6 @@
 export const videos = [
   {
-    title: "Video Centenario Guillermo Pérez",
+    title: "Video Centenario Guillo Pérez",
     url: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/video-centenario-guillo_perez.mp4"
   },
   {

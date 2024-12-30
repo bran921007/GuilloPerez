@@ -5,22 +5,22 @@ import { Quote } from "lucide-react";
 
 const quotes = [
   {
-    quote: "Pérez ha redefinido los límites entre el arte tradicional y contemporáneo, creando un lenguaje visual único que resuena tanto con el pasado como con el futuro.",
-    author: "María González",
-    publication: "Arte Contemporáneo Magazine",
-    year: "2018"
+    quote: "El magistral colorista dominicano ha interpretado como nadie tal vez, el entorno criollo, hombre y paisaje, cielo, mar y tierra",
+    author: "Marianne de Tolentino",
+    publication: "Listín Diario",
+    year: "2014"
   },
   {
-    quote: "Su trabajo no solo representa una evolución en el arte latinoamericano, sino que establece nuevos paradigmas para el diálogo cultural global.",
-    author: "John Smith",
-    publication: "International Art Review",
-    year: "2015"
+    quote: "Guillo Pérez fue uno de los más altos maestros de la pintura dominicana de los últimos cien años. Su personalidad poseía un aire de dignidad al estilo de los grandes maestros clásicos de Hispanoamérica",
+    author: "Cándido Gerón - Crítico de arte",
+    publication: "Acento",
+    year: "2023"
   },
   {
-    quote: "La capacidad de Guillermo para entretejer narrativas culturales con técnicas innovadoras lo posiciona como uno de los artistas más influyentes de su generación.",
-    author: "Ana López",
-    publication: "Crítica de Arte Moderna",
-    year: "2020"
+    quote: "Además de los aportes fundamentales de Guillo Pérez mediante la conceptualización de lo nacional en la pintura moderna dominicana, está su capacidad de aprendizaje originario con su maestro Yoryi Morel; con los lenguajes estéticos y estructuras plásticas del Constructivismo Latinoamericano del uruguayo Joaquín Torres García, asociándolo con inteligencia e intuición al Constructivismo Ruso, generando una poética y una teoría estética que él estableció como Constructivismo Antillano. En la República Dominicana, sólo Jaime Colson, con su Neohumanismo, creó una base científica para definir los principios estéticos de su arte.",
+    author: "Abil Peralta Agüero - Reconocido crítico, curador de arte",
+    publication: "El Periódico Hoy",
+    year: "2014"
   }
 ];
 

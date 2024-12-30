@@ -8,8 +8,18 @@ import { WhatsAppWidget } from '@/components/shared/WhatsAppWidget';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "D'Guillermo Galeria | Fine Art Gallery",
-  description: 'Experience our curated collection of fine art in an atmosphere of sophistication and cultural excellence.',
+  metadataBase: new URL('https://guilloperez.com'),
+  title: "D'Guillermo Galería | Galería de Arte",
+  description: 'Espacio dedicado al arte y la cultura, ofreciendo servicios de enmarcado profesional y exhibiendo obras de artistas destacados.',
+  keywords: 'galería de arte, enmarcado, arte dominicano, Guillo Pérez, Cabrera',
+  // openGraph: {
+  //   title: "D'Guillermo Galería",
+  //   description: 'Galería de arte y servicios de enmarcado profesional',
+  //   // images: './logo2.png',
+  // },
+  icons: {
+    icon: './logo2.png',
+  }
 };
 
 export default function RootLayout({

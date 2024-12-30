@@ -22,7 +22,7 @@ export function CollectionPage() {
     <div className="max-w-7xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-serif mb-6">Nuestra Colección</h1>
       <p className="text-lg text-muted-foreground mb-12">
-        Explore nuestra colección de obras destacadas del maestro Guillermo Pérez.
+        Explore nuestra colección de obras destacadas del maestro Guillo Pérez.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

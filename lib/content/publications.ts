@@ -23,7 +23,7 @@ export const publications = {
       url: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/DGuillermoGaleriaLogo.jpg"
     },
     {
-      title: "Centenario Guillermo Pérez",
+      title: "Centenario Guillo Pérez",
       url: "https://guillermo-galeria.s3.us-east-1.amazonaws.com/centenario-guilloperez.jpeg"
     }
   ]
