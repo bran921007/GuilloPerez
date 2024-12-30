@@ -35,7 +35,14 @@ export function Navbar() {
             <Link href="/visit" className="hover:text-primary">
               Visítanos
             </Link>
-            <Button variant="outline">Contacto</Button>
+            <Button variant="outline">
+              <Link 
+                href="https://wa.me/18493610323?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20la%20galería." 
+                target="_blank"
+              >
+                Contacto
+              </Link>
+            </Button>
           </div>
 
           <button

@@ -37,7 +37,9 @@ export function Contact() {
                 <Link href="https://www.instagram.com/dguillermogaleria/" rel="noreferrer" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                   <Instagram className="w-6 h-6" />
                 </Link>
-               
+                <Link href="https://www.facebook.com/p/Guillo-P%C3%A9rez-Pagina-Oficial-100063522524095/" rel="noreferrer" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Facebook className="w-6 h-6" />
+                </Link>
               </div>
             </div>
 
